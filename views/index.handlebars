@@ -1,0 +1,25 @@
+
+<div class='burgerHolders'>
+    <div class='bDivs'>
+        {{#each burgerName}} 
+          {{#unless devoured}}
+            <div class='displayDivs1'>
+                <span>{{id}}. {{burgerName}}</span>
+                <button class='devourBtn' id='{{id}}'>Devour it!</button>
+            </div>
+          {{/unless}} 
+        {{/each}}
+    </div>
+</div>
+
+<div class='burgerHolders'>
+    {{#each burgerName}}
+        <div class='displayDivs2'>
+            {{#if devoured}}
+                <div>
+                    <span>{{id}}. {{burgerName}}</span>
+                </div>
+            {{/if}}
+        </div>
+    {{/each}}
+ </div>
