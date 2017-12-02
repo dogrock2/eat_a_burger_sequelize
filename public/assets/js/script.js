@@ -12,7 +12,8 @@ $('#SubmButton').on('click', () => {
       'val1': inputData
     }
   }).then(
-    function () {
+    function (data) {
+      console.log(data);
       location.reload();
     });
 

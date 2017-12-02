@@ -1,10 +1,11 @@
 {
-  "name": "burger_sequelize2",
+  "name": "burgersequelize",
   "version": "1.0.0",
-  "description": "Burger version for deployment",
-  "main": "index.js",
+  "description": "Burger app using handlebars and Sequelize.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Alex",
   "license": "ISC",
